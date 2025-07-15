@@ -14,7 +14,7 @@ services:
     environment:
       - PORT=3000
       - MONGODB_URI=mongodb://mongo:27017/user-service
-      - JWT_SECRET=your_jwt_secret
+      - JWT_SECRET=fd0ed679bbc1d0bde67d737e571c332c65267f6df6174c3f8248c7fae15502d2
     depends_on:
       - mongo
 volumes:
